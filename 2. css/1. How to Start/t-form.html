@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1 style="color:white; background-color: black;">Teacher Registration Form</h1>
+
+	<form>
+		<table>
+			<tr>
+				<td><label>Name:</label></td>
+				<td><input type="text" name="name" placeholder="Enter your name" required></td>
+			</tr>
+
+			<tr>
+				<td><label>Email:</label></td>
+				<td><input type="email" name="email" required></td>
+			</tr>
+
+			<tr>
+				<td>Country:</td>
+				<td>
+					<select name="Country">
+						<option value="bd">Bangladesh</option>
+						<option value="in">India</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label>Date of Birth:</label></td>
+				<td><input type="date" name=""></td>
+			</tr>
+
+			<tr>
+				<td><label>Gender:</label></td>
+				<td>
+					<label for="male">Male</label>
+					<input type="radio" name="gender" id="male">
+
+					<label for="female">Female</label>
+					<input type="radio" name="gender" id="female">
+				</td>
+			</tr>
+
+			<tr>
+				<td><label>Hobby:</label></td>
+				<td>
+					<input id="travelling" type="checkbox" name="">
+					<label for="travelling">Travelling</label>
+					<br>
+
+					
+					<input type="checkbox" name="">
+					<label>Coding</label>
+					<br>	
+
+					<input type="checkbox" name="">
+					<label>Painting</label>	
+				</td>
+			</tr>
+
+			<tr>
+				<td><label>About Me:</label></td>
+				<td><textarea rows="6" cols="40"></textarea></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Register"></td>
+			</tr>
+
+
+		</table>
+
+	</form>
+
+</body>
+</html>

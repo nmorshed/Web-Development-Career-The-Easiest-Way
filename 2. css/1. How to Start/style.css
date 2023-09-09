@@ -1,0 +1,13 @@
+input, select{
+	padding: 10px;
+	background-color: #e1e1e138;
+	border: 1px solid #e1e1e1;
+}
+textarea{
+	padding: 10px;
+	border: 1px solid #e1e1e1;
+
+}
+label{
+	font-weight: lighter;
+}

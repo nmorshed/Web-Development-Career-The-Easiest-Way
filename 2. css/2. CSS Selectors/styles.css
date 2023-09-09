@@ -1,0 +1,17 @@
+#bio-area{
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+#avatar{
+	width: 150px;
+	border-radius: 50%;
+}
+
+.bio-text{
+	text-align: left;
+}
+#bio-area > a{
+	text-decoration: none;
+}
